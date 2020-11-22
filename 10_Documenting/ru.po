@@ -1,0 +1,53 @@
+# Simple hello world example
+# Copyright (C) 2020 Maksim Marin
+# This file is distributed under the same license as the guess package.
+# Maksim Marin <mr.marinmaksim@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: guess 0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-22 23:53+0300\n"
+"PO-Revision-Date: 2020-11-16 00:18+0300\n"
+"Last-Translator: Maksim Marin <mr.marinmaksim@gmail.com>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. * Help message for --help flag
+#: guess.c:48
+msgid ""
+"It's program, that can guess your number from 1 to 100\n"
+"Usage: ./guess [OPTIONS]\n"
+"    --help      just prints this help\n"
+"    --version   prints prgram version\n"
+"    -r          uses roman numbers instead of integers\n"
+msgstr ""
+"Это программа, которая угадывает ваше число от 1 до 100\n"
+"Использование: ./guess [ОПЦИИ]\n"
+"    --help      просто печатает эту помощь\n"
+"    --version   выводит версию программы\n"
+"    -r          использует римские цифры вместо десятичных\n"
+
+#: guess.c:79
+#, c-format
+msgid "Is number greater than"
+msgstr "Число больше"
+
+#: guess.c:89
+msgid "yes"
+msgstr "да"
+
+#: guess.c:89
+#, fuzzy
+msgid "Yes"
+msgstr "Да"
+
+#: guess.c:97
+#, c-format
+msgid "Your number is"
+msgstr "Твоё число"

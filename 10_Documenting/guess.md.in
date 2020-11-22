@@ -1,0 +1,12 @@
+/// @mainpage
+
+It's program, that can guess your number from 1 to 100
+
+Usage: ./guess [OPTIONS]
+
+    --help      just prints this help
+
+    --version   prints prgram version
+
+    -r          uses roman numbers instead of integers
+    
